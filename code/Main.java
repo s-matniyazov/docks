@@ -6,9 +6,8 @@ package code;
  * @created : 03 апр. 2025
  **/
 public class Main {
- public static void main(String[] args) {
-
-  System.out.println("asdas+123".matches("^[A-Za-z]+[+-]\\d+$"));
-
- }
+    public static void main(String[] args) {
+        Solution solution = new Solution();
+        System.out.println(solution.multiply("25", "25"));
+    }
 }
